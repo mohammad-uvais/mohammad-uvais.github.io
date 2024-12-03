@@ -1,0 +1,20 @@
+/* #root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .logo {
+  font-size: 2.5rem;
+  margin-left: 0.5rem;
+  border: 1px solid white;
+  padding-bottom: 0.4rem;
+} */
+
+.download-icon {
+  border: 1px solid red;
+  height: 130px;
+  margin: 50px;
+  padding: 150px;
+}
