@@ -5,16 +5,50 @@
   text-align: center;
 } */
 
-/* .logo {
+.logo {
   font-size: 2.5rem;
-  margin-left: 0.5rem;
-  border: 1px solid white;
-  padding-bottom: 0.4rem;
+  font-weight: 500;
+  margin-left: 2.5rem;
+  padding: 0 0.75rem 0.75rem 0.75rem;
+  cursor: pointer;
+}
+/* .logo:hover {
+  font-weight: 700;
 } */
 
-.download-icon {
+.download-resume {
+  margin-right: 2.5rem;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+.introduction {
+  /* width: 50%; */
+  padding: 3rem;
+  min-width: fit-content;
   border: 1px solid red;
-  height: 130px;
-  margin: 50px;
-  padding: 150px;
+  /* flex-grow: 1; */
+}
+
+.profession {
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+  color: maroon;
+  background-color: white;
+}
+
+.contact-links,
+.action-btn {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.technologies {
+  border: 1px solid green;
+  padding: 3rem;
+  flex-grow: 1;
 }
