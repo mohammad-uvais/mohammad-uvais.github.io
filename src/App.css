@@ -22,14 +22,18 @@
 
 .hero-content {
   display: flex;
-  justify-content: space-between;
 }
+
 .introduction {
-  /* width: 50%; */
-  padding: 3rem;
-  min-width: fit-content;
+  flex-grow: 1;
   border: 1px solid red;
-  /* flex-grow: 1; */
+  padding: 3rem;
+}
+
+.technologies {
+  flex-grow: 1;
+  border: 1px solid green;
+  padding: 3rem;
 }
 
 .profession {
@@ -37,7 +41,7 @@
   font-weight: 300;
   font-style: italic;
   color: maroon;
-  background-color: white;
+  border: 1px solid yellow;
 }
 
 .contact-links,
@@ -45,10 +49,4 @@
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
-}
-
-.technologies {
-  border: 1px solid green;
-  padding: 3rem;
-  flex-grow: 1;
 }
