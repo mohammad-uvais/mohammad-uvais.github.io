@@ -43,6 +43,12 @@ h1 {
   border: 1px solid cyan;
 }
 
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  border: 1px solid whitesmoke;
+}
+
 button {
   border-radius: 0.5rem;
   border: 1px solid transparent;

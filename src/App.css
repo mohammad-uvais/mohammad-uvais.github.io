@@ -50,3 +50,13 @@
   justify-content: space-evenly;
   padding: 1rem;
 }
+
+.know-more {
+  background-color: transparent;
+  border: 1px solid #646cff;
+}
+
+.projects-section {
+  padding: 1rem;
+  border: 1px solid rebeccapurple;
+}
