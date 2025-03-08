@@ -5,16 +5,58 @@
   text-align: center;
 } */
 
-/* .logo {
+.logo {
   font-size: 2.5rem;
-  margin-left: 0.5rem;
-  border: 1px solid white;
-  padding-bottom: 0.4rem;
+  font-weight: 500;
+  margin-left: 2.5rem;
+  padding: 0 0.75rem 0.75rem 0.75rem;
+  cursor: pointer;
+}
+/* .logo:hover {
+  font-weight: 700;
 } */
 
-.download-icon {
+.download-resume {
+  margin-right: 2.5rem;
+}
+
+.hero-content {
+  display: flex;
+}
+
+.introduction {
+  flex-grow: 1;
   border: 1px solid red;
-  height: 130px;
-  margin: 50px;
-  padding: 150px;
+  padding: 3rem;
+}
+
+.technologies {
+  flex-grow: 1;
+  border: 1px solid green;
+  padding: 3rem;
+}
+
+.profession {
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+  color: maroon;
+  border: 1px solid yellow;
+}
+
+.contact-links,
+.action-btn {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.know-more {
+  background-color: transparent;
+  border: 1px solid #646cff;
+}
+
+.projects-section {
+  padding: 1rem;
+  border: 1px solid rebeccapurple;
 }
