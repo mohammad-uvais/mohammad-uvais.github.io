@@ -17,12 +17,14 @@
 
 * {
   box-sizing: border-box;
+  border: 1px solid wheat;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  /* overflow: hidden; */
 }
 
 /* #app {
@@ -34,18 +36,63 @@ body {
 
 header {
   height: 7vh;
+  padding: 0.5rem;
+  text-align: center;
   border-bottom: 1px solid maroon;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 2rem;
 }
 
 .logo {
-  margin: 0;
   font-size: 2rem;
   font-weight: 700;
-  padding-left: 1rem;
+}
+
+main {
+  height: 93vh;
+}
+
+.welcome {
+  display: flex;
+  /* place-items: center; */
+  /* text-align: center; */
+}
+
+.personal-info {
+  flex: 1;
+  text-align: center;
+}
+
+.technologies {
+  flex: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  /* width: 460px; */
+  /* text-align: justify; */
+}
+
+.profession {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+  color: yellowgreen;
+}
+
+article {
+  /* max-width: 80%; */
+  margin: 0 auto;
+}
+article > p {
+  font-size: 1.25rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 button {
@@ -70,32 +117,6 @@ button:focus-visible {
 button > img {
   vertical-align: bottom;
   margin-right: 4px;
-}
-
-main {
-  height: 93vh;
-  /* background-color: #213547; */
-}
-
-/* .welcome {
-  background-color: #747bff;
-} */
-
-h1 {
-  margin: 0;
-  font-size: 5rem;
-  font-weight: 400;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.profession {
-  font-size: 2rem;
-  font-style: italic;
-  font-weight: 400;
-  color: yellowgreen;
 }
 
 .icons {
