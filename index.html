@@ -1,184 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Mohammad Uvais</title>
-</head>
-
-<body class="w3-light-grey">
-
-  <!-- Page Container -->
-  <div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-    <!-- The Grid -->
-    <div class="w3-row-padding">
-
-      <!-- Left Column -->
-      <div class="w3-third">
-
-        <div class="w3-white w3-text-grey w3-card-4">
-          <div class="w3-display-container">
-            <img src="images/avatar-1577909_640.png" style="width:100%" alt="Avatar">
-            <div class="w3-display-bottomleft w3-container w3-text-black">
-              <h2>Mohammad Uvais</h2>
-            </div>
-          </div>
-          <div class="w3-container">
-            <p>
-              <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
-              Front End Developer
-            </p>
-            <p>
-              <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
-              Delhi, IN
-            </p>
-            <p>
-              <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
-              uvaismansoori@gmail.com
-            </p>
-            <p>
-              <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
-              (+91) 9650-9493-78
-            </p>
-            <hr>
-
-            <p class="w3-large">
-              <strong><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
-                Skills
-              </strong>
-            </p>
-            <p>React</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
-                70%
-              </div>
-            </div>
-            <p>JavaScript</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
-                <div class="w3-center w3-text-white">
-                  70%
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammad Uvais | Frontend Developer</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <span class="logo">{ }</span>
+      </header>
+      <main>
+        <section class="welcome">
+          <div class="personal-info">
+            <div style="padding-left: 1rem">
+              <h1 id="name">Mohammad<br />Uvais</h1>
+              <p class="profession">Frontend Developer</p>
+              <article>
+                <p>
+                  Proficient in developing UI for cross-platform applications
+                  (mobile, desktop, android, iOS) using React and React Native,
+                  with State Management using Redux.
+                </p>
+              </article>
+              <div class="links">
+                <div class="link-box">
+                  <img
+                    src="/src/assets/svgs/linkedin.svg"
+                    alt="Download Icon"
+                    height="24"
+                    width="24"
+                  />
+                  <a
+                    href="https://www.linkedin.com/in/mohammaduvais"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </a>
+                </div>
+                <div class="link-box">
+                  <img
+                    src="/src/assets/svgs/github-142-svgrepo-com (1).svg"
+                    alt="Download Icon"
+                    height="20"
+                    width="20"
+                  />
+                  <a href="https://github.com/mohammad-uvais" target="_blank">
+                    GitHub
+                  </a>
+                </div>
+                <div class="link-box">
+                  <img
+                    src="/src/assets/svgs/download.svg"
+                    alt="Download Icon"
+                    height="20"
+                    width="20"
+                  />
+                  <a
+                    href="/src/assets/pdfs/m-uvais-resume.pdf"
+                    download="uvais-resume"
+                  >
+                    Resume
+                  </a>
                 </div>
               </div>
             </div>
-            <p>CSS</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-                80%
+          </div>
+
+          <div class="technologies">
+            <div class="icons-container">
+              <div class="icons-group">
+                <div class="icon-box">
+                  <img
+                    src="/src/assets/svgs/react-native.svg"
+                    alt="react native icon"
+                    height="80px"
+                    width="80px"
+                  />
+                  <p>React Native</p>
+                </div>
+                <div class="icon-box">
+                  <img
+                    src="/src/assets/svgs/redux.svg"
+                    alt="redux icon"
+                    height="80px"
+                    width="80px"
+                  />
+                  <p>Redux</p>
+                </div>
+                <div class="icon-box">
+                  <img
+                    src="/src/assets/svgs/react.svg"
+                    alt="react icon"
+                    height="80px"
+                    width="80px"
+                  />
+                  <p>React</p>
+                </div>
+              </div>
+
+              <div class="icons-group">
+                <div class="icon-box">
+                  <img
+                    src="/src/assets/svgs/javascript.svg"
+                    alt="javascript logo"
+                    height="80px"
+                    width="80px"
+                  />
+                  <p>JavaScript</p>
+                </div>
+                <div class="icon-box">
+                  <img
+                    src="/src/assets/svgs/css.svg"
+                    alt="css logo"
+                    height="80px"
+                    width="80px"
+                  />
+                  <p>CSS</p>
+                </div>
+                <div class="icon-box">
+                  <img
+                    src="/src/assets/svgs/html.svg"
+                    alt="html logo"
+                    height="80px"
+                    width="80px"
+                  />
+                  <p>HTML</p>
+                </div>
               </div>
             </div>
-            <p>HTML</p>
-            <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-                80%
-              </div>
-            </div>
-            <br>
           </div>
-        </div>
-        <br>
-
-        <!-- End Left Column -->
-      </div>
-
-      <!-- Right Column -->
-      <div class="w3-twothird">
-
-        <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16">
-            <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-            Education
-          </h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><strong>Delhi Technological University</strong></h5>
-            <h6 class="w3-text-teal">
-              <i class="fa fa-calendar fa-fw w3-margin-right"></i>
-              2014 - 2018
-            </h6>
-            <p>B.Tech in Production and Industrial Engineering</p>
-            <hr>
-          </div>
-
-        </div>
-
-        <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16">
-            <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-            Projects
-          </h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><strong>Marvel's Mini Universe</strong></h5>
-            <h6 class="w3-text-teal">
-              <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
-              React + Bootstrap
-            </h6>
-            <span class="w3-tag w3-teal w3-round">
-              <a href="https://marvel-mini-universe.netlify.app/" target="_blank"
-                style="text-decoration: none;">View</a>
-            </span>
-            <p>
-              Developed a SPA using React which interacts with Marvel's API (RESTful) to fetch Marvel Characters and
-              Comics. The received data is then displayed using Bootstrap for UI.
-            </p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><strong>Web Pages</strong></h5>
-            <h6 class="w3-text-teal">
-              <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
-              HTML + CSS
-            </h6>
-            <span class="w3-tag w3-teal w3-round">
-              <a href="https://mohammad-uvais.github.io/web-pages/personal-portfolio-page.html" target="_blank"
-                style="text-decoration: none;">View</a>
-            </span>
-            <p>
-              Created some Web Pages and a Resume cum Portfolio using HTML and CSS.
-            </p>
-            <hr>
-          </div>
-        </div>
-
-        <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16">
-            <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-            Work Experience
-          </h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><strong>Front End Developer / Healthmug, Delhi</strong></h5>
-            <h6 class="w3-text-teal">
-              <i class="fa fa-calendar fa-fw w3-margin-right"></i>
-              Oct 2021 - Present
-            </h6>
-            <p>
-              Working as a React Developer.
-            </p>
-          </div>
-        </div>
-
-        <!-- End Right Column -->
-      </div>
-
-      <!-- End Grid -->
+        </section>
+      </main>
+      <footer></footer>
     </div>
-
-    <!-- End Page Container -->
-  </div>
-
-  <footer class="w3-container w3-teal w3-center w3-margin-top w3-padding">
-    <p>Find me on social media.</p>
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </footer>
-
-</body>
-
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
