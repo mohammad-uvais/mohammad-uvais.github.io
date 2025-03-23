@@ -172,6 +172,22 @@ button > img {
 .icon-box p {
   margin: 0.5rem;
 }
+
+.projects {
+  background-color: #747bff;
+}
+
+footer {
+  max-height: 50vh;
+  background-color: violet;
+  color: #ddd;
+  padding: 2rem;
+}
+
+footer p {
+  text-align: center;
+}
+
 /* .logo {
   height: 6em;
   padding: 1.5em;
