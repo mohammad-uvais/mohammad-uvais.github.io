@@ -173,6 +173,10 @@ button > img {
   margin: 0.5rem;
 }
 
+.projects {
+  background-color: #747bff;
+}
+
 footer {
   max-height: 50vh;
   background-color: violet;
