@@ -15,27 +15,27 @@
       <form method="post" action="https://register-demo.freecodecamp.org">
         <fieldset name="Personal Info">
           <div class="form-control">
-            <label for="first_name">Enter your first name</label>
-            <p>:</p>
+            <label for="first_name">Enter Your First Name</label>
+            <span>:</span>
             <input type="text" id="first_name" name="first_name" required />
           </div>
           <div class="form-control">
-            <label for="last_name">Enter your last name</label>
+            <label for="last_name">Enter Your Last Name</label>
             <span>:</span>
             <input type="text" id="last_name" name="last_name" required />
           </div>
           <div class="form-control">
-            <label for="mobile">Enter your Mobile Number</label>
+            <label for="mobile">Enter Your Mobile Number</label>
             <span>:</span>
             <input type="tel" name="mobile" id="mobile" required />
           </div>
           <div class="form-control">
-            <label for="email">Enter your Email</label>
+            <label for="email">Enter Your Email</label>
             <span>:</span>
             <input type="email" name="email" id="email" required />
           </div>
           <div class="form-control">
-            <label for="password">Create a new password</label>
+            <label for="password">Create a New Password</label>
             <span>:</span>
             <input type="password" name="password" id="password" pattern="[a-z0-9]{8,}" required />
           </div>
@@ -59,22 +59,16 @@
         </fieldset>
         <fieldset name="Account Info">
           <legend>Account type (required)</legend>
-          <label for="personal"
-            ><input
-              type="radio"
-              name="account_type"
-              id="personal"
-              value="personal"
-              class="inline"
-              checked />Personal</label
-          >
-          <label for="business"
-            ><input type="radio" name="account_type" id="business" value="business" class="inline" />Business</label
-          >
+          <label for="personal">
+            <input type="radio" name="account_type" id="personal" value="personal" class="inline" checked />Personal
+          </label>
+          <label for="business">
+            <input type="radio" name="account_type" id="business" value="business" class="inline" />Business
+          </label>
         </fieldset>
         <fieldset name="Submission">
           <div class="form-control">
-            <label for="referrer">How did you hear about us?</label>
+            <label for="referrer" style="width: 50%">How did you hear about us?</label>
             <select name="referrer" id="referrer">
               <option value="">(Select One)</option>
               <option value="news">freeCodeCamp News</option>
