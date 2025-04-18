@@ -1,13 +1,13 @@
 :root {
   color-scheme: light dark;
 
-  --primary-color: #3498db;
-  --secondary-color: yellowgreen;
-  --accent-color: maroon;
+  --primary-color: rgb(70, 193, 234);
+  --secondary-color: maroon;
+  --accent-color: yellowgreen;
   --background-color-dark: black;
   --background-color-light: antiquewhite;
-  --text-color-dark: antiquewhite;
-  --text-color-light: black;
+  --text-color-dark: black;
+  --text-color-light: antiquewhite;
 }
 
 *,
@@ -45,7 +45,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   line-height: 1.5; /* Base line height */
-  color: var(--text-color-dark);
+  color: var(--text-color-light);
   background-color: var(--background-color-dark);
   min-height: 100vh;
 }
@@ -64,6 +64,7 @@ header {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid var(--accent-color);
+  background-color: var(--accent-color);
 }
 .logo {
   font-size: 2rem;
@@ -72,6 +73,7 @@ header {
 
 main {
   border-top: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .welcome {
@@ -125,7 +127,7 @@ h1 {
 
 a {
   font-weight: 500;
-  color: var(--text-color-dark);
+  color: var(--text-color-light);
   vertical-align: middle;
   margin-left: 0.25rem;
   text-decoration: underline;
@@ -134,7 +136,7 @@ a:hover {
   color: var(--accent-color);
 }
 a:visited {
-  color: var(--text-color-dark);
+  color: var(--text-color-light);
 }
 a:active {
   color: var(--accent-color);
@@ -175,8 +177,8 @@ button > img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   border: 1px solid transparent;
   border-radius: 25%;
   background-color: #222;
@@ -184,7 +186,7 @@ button > img {
   margin: 0 1rem;
 }
 .icon-box:hover {
-  border-color: var(--text-color-dark);
+  border-color: var(--text-color-light);
   transition: border-color 0.25s;
 }
 .icon-box img {
@@ -200,9 +202,10 @@ button > img {
 
 footer {
   max-height: 50vh;
-  background-color: violet;
-  color: #ddd;
+  color: var(--text-color-light);
+  background-color: var(--background-color-dark);
   padding: 2rem;
+  border-top: 1px solid var(--accent-color);
 }
 
 footer p {
@@ -236,14 +239,17 @@ a:hover {
 } */
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+  body {
+    color: var(--text-color-dark);
+    background-color: var(--background-color-light);
   }
   a:hover {
-    color: #747bff;
+    color: var(--text-color-dark);
   }
-  button {
-    background-color: #f9f9f9;
+  a:visited {
+    color: var(--text-color-dark);
+  }
+  a:active {
+    color: var(--text-color-dark);
   }
 }
