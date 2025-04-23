@@ -1,8 +1,9 @@
 :root {
   color-scheme: light dark;
 
-  --primary-color: rgb(70, 193, 234);
-  --secondary-color: maroon;
+  --primary-color: aqua;
+  --secondary-color: aquamarine;
+  --tertiary-color: maroon;
   --accent-color: yellowgreen;
   --background-color-dark: black;
   --background-color-light: antiquewhite;
@@ -16,7 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 1px solid antiquewhite; */
+  /* outline: 1px solid red; */
 }
 
 html {
@@ -64,7 +65,7 @@ header {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid var(--accent-color);
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
 }
 .logo {
   font-size: 2rem;
@@ -107,7 +108,8 @@ h1 {
 }
 
 .profile-description {
-  margin: 1rem 0;
+  margin: 1rem auto;
+  max-width: 80%;
 }
 
 .links-container {
@@ -202,8 +204,6 @@ button > img {
 
 footer {
   max-height: 50vh;
-  color: var(--text-color-light);
-  background-color: var(--background-color-dark);
   padding: 2rem;
   border-top: 1px solid var(--accent-color);
 }
@@ -243,13 +243,16 @@ a:hover {
     color: var(--text-color-dark);
     background-color: var(--background-color-light);
   }
-  a:hover {
+  a {
     color: var(--text-color-dark);
+  }
+  a:hover {
+    color: var(--accent-color);
   }
   a:visited {
     color: var(--text-color-dark);
   }
   a:active {
-    color: var(--text-color-dark);
+    color: var(--accent-color);
   }
 }
